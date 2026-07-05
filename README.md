@@ -6,7 +6,7 @@ Proyecto desarrollado en ASP.NET Web Forms (C#) para la Evaluación 4.
 ## Requisitos Previos
 Para ejecutar este proyecto correctamente en Visual Studio, es necesario crear la base de datos y la tabla correspondiente en SQL Server (LocalDB), Si es necesario verificar la ruta
 de conexion posteriormente de la creación en el archivo `config\conexion.cs`.
-
+-- Eliminar la carpeta App_Data si da problemas a la hora de crear la base de datos.
 ## Instrucciones de Instalación y Base de Datos
 Ejecute el siguiente script en SQL Server para crear la base de datos `PRUEBA4`, la tabla `Alumno` y agregar datos de prueba:
 
