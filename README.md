@@ -1,6 +1,7 @@
 ﻿# Sistema de Cálculo y Consulta de Notas
 
-Proyecto desarrollado en ASP.NET Web Forms (C#) para la Evaluación 4. 
+Proyecto desarrollado en ASP.NET Web Forms (C#) para la Evaluación 4.
+-- Recuerde compilar la solución.
 
 ## Requisitos Previos
 Para ejecutar este proyecto correctamente en Visual Studio, es necesario crear la base de datos y la tabla correspondiente en SQL Server (LocalDB), Si es necesario verificar la ruta
