@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="plantilla.master.cs" Inherits="Alvarez.plantilla" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="d-flex flex-column min-vh-100 bg-dark">
+    <form id="form1" runat="server" class="d-flex flex-column flex-grow-1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm mb-4"> 
+            <div class="container">    
+                <a class="navbar-brand fw-bold" href="index.aspx">SN</a>  
+                <div class="navbar-nav mx-auto">
+                <a class="btn btn-dark nav-link px-3 text-white" href="index.aspx">Home</a>
+                <a class="btn btn-dark nav-link px-3 text-white" href="Calcular.aspx">Calcular Promedios</a>
+                <a class="btn btn-dark nav-link px-3 text-white" href="Buscar.aspx">Buscar Notas</a>
+                </div>
+            </div>
+        </nav>
+        <main class="container flex-grow-1 my-4">
+            <div class="row justify-content-center">
+                <div class="col-md-8 bg-transparent px-5  pt-2 rounded shadow-sm text-center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark border-top py-3 text-center mt-auto">
+            <div class="container">
+                <span class="text-white fw-bold text-uppercase">Benjamín Álvarez</span>
+            </div>
+        </footer>
+    </form>
+
+</body>
+
+</html>
