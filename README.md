@@ -18,9 +18,9 @@ GO
 USE PRUEBA4;
 GO
 
--- 2. Crear la tabla
-CREATE TABLE [dbo].[Alumno] (
+-- 2. Crear la table
 
+CREATE TABLE [dbo].[Alumno] (
     [Id]       INT            IDENTITY (1, 1) NOT NULL,
     [Rut]      NVARCHAR (12)  NOT NULL,
     [Nombre]   NVARCHAR (100) NOT NULL,
