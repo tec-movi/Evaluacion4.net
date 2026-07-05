@@ -13,10 +13,8 @@ Ejecute el siguiente script en SQL Server para crear la base de datos `PRUEBA4`,
 ## SQL
 -- 1. Crear la base de datos
 CREATE DATABASE PRUEBA4;
-GO
 
 USE PRUEBA4;
-GO
 
 -- 2. Crear la table
 
@@ -30,11 +28,9 @@ CREATE TABLE [dbo].[Alumno] (
     [Promedio] DECIMAL (3, 1) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
-GO
 
 -- 3. Datos de prueba (Opcional)
 INSERT INTO Alumno (Rut, Nombre, Nota1, Nota2, Nota3, Promedio) 
 VALUES 
 ('11111111-1', 'Juan Pérez', 5.5, 6.0, 6.5, 6.0),
 ('22222222-2', 'María González', 4.0, 5.0, 4.5, 4.5);
-GO
