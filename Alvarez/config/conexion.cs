@@ -10,7 +10,7 @@ namespace Alvarez
     {
         public static SqlConnection Conectar()
         {
-            SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Alvarez\Alvarez\App_Data\PRUEBA4.mdf;Integrated Security=True");
+            SqlConnection conexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PRUEBA4.mdf;Integrated Security=True");
 
             return conexion;
         }
