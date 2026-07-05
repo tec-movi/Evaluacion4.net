@@ -26,9 +26,9 @@ namespace Alvarez
             {
                 string rut = txtRut.Text;
                 string nombre = txtNombre.Text;
-                decimal nota1 = decimal.Parse(txtNota1.Text.Replace(",", "."));
-                decimal nota2 = decimal.Parse(txtNota2.Text.Replace(",", "."));
-                decimal nota3 = decimal.Parse(txtNota3.Text.Replace(",", "."));
+                decimal nota1 = decimal.Parse(txtNota1.Text.Replace(",", "."), CultureInfo.InvariantCulture);
+                decimal nota2 = decimal.Parse(txtNota2.Text.Replace(",", "."), CultureInfo.InvariantCulture);
+                decimal nota3 = decimal.Parse(txtNota3.Text.Replace(",", "."), CultureInfo.InvariantCulture);
 
                 decimal promedio = (nota1 + nota2 + nota3) / 3;
                 promedio = Math.Round(promedio, 1);
